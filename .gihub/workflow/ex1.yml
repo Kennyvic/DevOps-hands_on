@@ -1,0 +1,14 @@
+name: Hands-on 1
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome message
+        run: echo "My first GitHub Actions job"
+      
+      - name: List files
+        run: ls -l
+
